@@ -1,7 +1,7 @@
 <h2>Announcements</h2>
 <ul>
   {{#each model as |announcement|}}
-    {{announcements-kebab announcement=announcement}}
+    {{announcements-kebab announcement=announcement destroyAnnouncement="destroyAnnouncement"}}
   {{/each}}
 </ul>
 
