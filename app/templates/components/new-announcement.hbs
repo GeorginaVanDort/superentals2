@@ -1,0 +1,14 @@
+{{#if addNewAnnouncement }}
+  <div>
+    <form>
+      <label for="message">Message</label>
+      {{input value=message id=message}}
+    </form>
+    <form>
+      <label for="date">Date</label>
+      {{input value=date id=date}}
+    </form>
+  </div>
+{{else}}
+  <button {{action 'announcementFormShow'}}>New Announcement</button>
+{{/if}}
