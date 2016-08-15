@@ -16,5 +16,13 @@
     "type": "Apartment",
     "bedrooms": 3,
     "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg"
+  }],
+  "announcements": [{
+    "message": "There are free shish kebabs available at Stephanie's Rental today!",
+    "date": "August 15"
+  },
+  {
+    "message": "There's a fire at Stephanie's property from the kebab grill! Run away!",
+    "date": "August 15"
   }]
 }
