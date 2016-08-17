@@ -24,5 +24,13 @@
   {
     "message": "There's a fire at Stephanie's property from the kebab grill! Run away!",
     "date": "August 15"
-  }]
+  }],
+
+  "cities": [{
+   "name": "Portland",
+   "country": "USA"
+ }, {
+   "name": "Seattle",
+   "country": "USA"
+ }]
 }
