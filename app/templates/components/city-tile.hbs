@@ -1,1 +1,5 @@
-{{yield}}
+<h1>{{city.name}} Tile</h1>
+
+<button {{action 'delete' city}} class="btn btn-danger btn-sm">Delete City</button>
+<br>
+{{#link-to 'index'}}Home{{/link-to}}
