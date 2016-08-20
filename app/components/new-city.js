@@ -8,7 +8,6 @@ export default Ember.Component.extend({
     },
 
     save() {
-{{debugger}};
       var params = {
         name: this.get('name'),
         country: this.get('country')
