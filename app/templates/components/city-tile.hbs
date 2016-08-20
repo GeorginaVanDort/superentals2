@@ -1,7 +1,9 @@
 <h3>{{city.name}} Properties</h3>
-{{#each city.rentals as |rental|}}
-  {{rental-tile rental=rental}}
-{{/each}}
+<ul>
+  {{#each city.rentals as |rental|}}
+    {{rental-tile rental=rental}}
+  {{/each}}
+</ul>
 <button {{action 'delete' city}} class="btn btn-danger btn-sm">Delete City</button>
 <br>
 {{#link-to 'index'}}Home{{/link-to}}
